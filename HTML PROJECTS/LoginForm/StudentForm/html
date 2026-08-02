@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="student.css" type="text/css">
+    <title>Student Registration Form</title>
+</head>
+
+<body>
+    <h1>Student Registration Form</h1>
+    <div class="container">
+        <form action="#" method="get">
+            <label for="name">First Name: </label>
+            <input type="text" name="name" id="name" placeholder="Enter first name. . ." required>
+            <label for="lastname">Last Name: </label>
+            <input type="text" name="lastname" id="lastname" placeholder="Enter last name. . ." required>
+            <label for="email">Email: </label>
+            <input type="email" name="email" id="email" placeholder="Enter email. . ." required>
+            <label for="password">Password: </label>
+            <input type="password" name="password" id="password" placeholder="Enter password. . ." required>
+            <fieldset>
+                <legend>Gender:</legend>
+                <input type="radio" name="gender" value="male"> Male
+                <input type="radio" name="gender" value="female"> Female
+                <input type="radio" name="gender" value="not_specified"> Prefer not to say
+            </fieldset>
+            <div>
+                <label for="Hobbies">Hobbies: </label>
+                <input type="checkbox" name="hobbies" id="reading" value="reading">
+                <label for="reading">Reading</label>
+                <input type="checkbox" name="hobbies" id="coding" value="coding">
+                <label for="coding">Coding</label>
+                <input type="checkbox" name="hobbies" id="sports" value="sports">
+                <label for="sports">Sports</label>
+                <input type="checkbox" name="hobbies" id="traveling" value="traveling">
+                <label for="traveling">Traveling</label>
+            </div>
+            <label for="year">Year: </label>
+            <select name="year">
+                <option value="" selected disabled>-- Select your year --</option>
+                <option value="1st">1st Year</option>
+                <option value="2nd">2nd Year</option>
+                <option value="3rd">3rd Year</option>
+                <option value="4th">4th Year</option>
+            </select>
+            <label for="message">Tell us about yourself!</label>
+            <textarea name="message" placeholder="Write Something. . ." cols="50" rows="7"></textarea>
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </form>
+    </div>
+</body>
+
+</html>
