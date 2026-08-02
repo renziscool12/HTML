@@ -1,0 +1,69 @@
+* {
+    font-family: 'Arial', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.container {
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 6px;
+    padding-top: 10px;
+}
+
+input[type="checkbox"]+label {
+    display: inline;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+fieldset {
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+input:focus {
+    outline: none;
+}
+
+button {
+    display: block;
+    padding: 10px;
+    margin-top: 12px;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: #4CAF50;
+    font-size: 16px;
+    transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+    /* Add transition for smooth hover effect */
+    color: white;
+    border: none;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #45a049;
+    transform: translateY(-3px);
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+    /* Move the button up slightly and add a shadow */
+}
